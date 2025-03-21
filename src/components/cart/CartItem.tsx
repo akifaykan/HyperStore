@@ -78,7 +78,7 @@ export const CartItem: React.FC<CartItemProps> = ({ item }) => {
                 {/* Product Details */}
                 <div className="flex-grow">
                     <div className="flex flex-col h-full justify-between">
-                        <div className="flex justify-between">
+                        <div className="flex items-end justify-between">
                             <h4 className="font-medium line-clamp-1 pr-2">{item.title}</h4>
                             <Button
                                 variant="ghost"
